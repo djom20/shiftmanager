@@ -1,0 +1,9 @@
+<header><h1>Nuevo Hotel</h1></header>
+<div>
+	<%= form_for @hotel, :url =>  user_hotels_path do |f| %>
+		<div><%= f.label :name %><br><%= f.text_field :name %></div>
+		<div><%= f.label :direccion %><br><%= f.file_field :direccion %></div>
+		<div><%= f.label :telefono %><br><%= f.text_field :telefono %></div>
+		<div><%= f.submit "Nuevo Hotel" %></div>
+	<% end %>
+</div>

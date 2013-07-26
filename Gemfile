@@ -40,6 +40,14 @@ gem 'jquery-rails'
 
 gem 'devise' #sesiones
 #gem "pdfkit" #generador de pdf
+#gem 'pg'
+#gem 'omniauth'
+#gem 'oauth2'
+#gem 'omniauth-facebook'
+#gem 'omniauth-twitter'
+#gem 'simple_form'
+#gem 'pg_search'
+#gem 'heroku'
 gem 'therubyracer', :platform => 'ruby'
 gem 'anjlab-bootstrap-rails', '>= 2.2', :require => 'bootstrap-rails'
 

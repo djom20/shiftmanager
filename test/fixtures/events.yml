@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  titulo: MyString
+  descripcion: MyString
+  fecha: 2013-07-26
+  prioridad: MyString
+  username: MyString
+  estado: MyString
+
+two:
+  titulo: MyString
+  descripcion: MyString
+  fecha: 2013-07-26
+  prioridad: MyString
+  username: MyString
+  estado: MyString

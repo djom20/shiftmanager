@@ -14,12 +14,13 @@
 
 
 * { cursor: hand; }
-body{ background-color: #333; color: #fff; overflow-x: hidden; }
 header{ margin-top: 5%; text-align: center; margin-bottom: 5%; text-transform: uppercase; }
-footer{ color:#000; padding: 1% 0; text-align: center; }
+footer{ color:#fff; padding: 1% 0; text-align: center; }
 footer a{ color:#000; }
 footer a span{ color:#f89c0b; }
 .img-receta{text-align: center; }
 .img-receta>img{ height: 10em;}
 .receta>p{ text-align: justify; }
 #logo{ height: 3em; margin-left: -38%; }
+#logobar{ height: 3em; margin-bottom: -25%; }
+body {overflow-x: hidden;padding-top: 40px;padding-bottom: 40px;background-repeat: repeat-x;background-color: #002958;background: url('/assets/blue-gradient-bg.png');}

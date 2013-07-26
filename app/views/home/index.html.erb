@@ -1,1 +1,20 @@
-hola mundo
+<header>
+    <h1>Eventos</h1>
+</header>
+<div class="row-fluid">
+    <% @events.each do |event| %>
+        <div class="receta span3">
+            <div class="caption">
+                <p><%= link_to event.titulo, user_event_path(event.user_id,event) %><br>
+                <%= event.titulo %><br>
+                <%= event.descripcion %><br>
+                <%= event.prioridad %><br>
+                <%= event.fecha %></p>
+                <% if current_user %>
+                    <p><%= link_to 'Edit', edit_user_event_path(current_user, event) %> | 
+                    <%= link_to 'Destroy', user_event_path(current_user, event), :confirm => '¿Estas seguro?', :method => :destroy %></p></p>
+                <% end %>
+            </div>
+        </div>
+    <% end %>
+</div>

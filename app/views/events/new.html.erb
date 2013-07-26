@@ -1,0 +1,10 @@
+<header><h1>Nuevo Evento</h1></header>
+<div>
+	<%= form_for @event, :url =>  user_events_path do |f| %>
+		<div><%= f.label :titulo %><br><%= f.text_field :titulo %></div>
+		<div><%= f.label :descripcion %><br><%= f.file_field :descripcion %></div>
+		<div><%= f.label :fecha %><br><%= f.text_field :fecha %></div>
+		<div><%= f.label :prioridad %><br><%= f.text_field :prioridad %></div>
+		<div><%= f.submit "Nuevo Evento" %></div>
+	<% end %>
+</div>
